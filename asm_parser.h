@@ -1,9 +1,9 @@
 /***************************************************************************
  * file name   : asm_parser.h                                              *
- * author      : tjf & you                                                 *
+ * author      : shanto                                                    *
  * description : this header file declares the functions for those         *
  *               in the "asm_parser.c" library                             *
- *			     standard "string.h" C-library.                            * 
+ *			         standard "string.h" C-library.                            * 
  *                                                                         *
  ***************************************************************************
  *
