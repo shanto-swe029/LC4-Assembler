@@ -1,6 +1,6 @@
 /***************************************************************************
  * file name   : assembler.c                                               *
- * author      : tjf & you                                                 *
+ * author      : shanto                                                    *
  * description : This program will assemble a .ASM file into a .OBJ file   *
  *               This program will use the "asm_parser" library to achieve *
  *			     its functionality.										   * 
