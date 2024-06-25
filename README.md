@@ -1,40 +1,65 @@
-# LC4-Assembler
+# LC4 Assembler
 
-**Project Description: My Mini LC4 Assembler**
+This project is an LC4 Assembler programmed in C, which reads an assembly language file and generates its machine code equivalent in binary format. The assembler handles file I/O operations, parsing instructions, and converting them into their binary equivalents.
 
-In this project, I explored the intricacies of file input/output (I/O) in C programming as I developed my mini LC4 Assembler. From lectures, I learned that C treats files as I/O devices, categorizing them into "text" and "binary" types. My task involved reading a text file, specifically a .ASM file intended for PennSim, and generating its binary equivalent in the form of a .OBJ file, akin to those produced by PennSim.
+## Table of Contents
+- [Description](#description)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Conclusion](#conclusion)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-**Key Objectives:**
+## Description
+The LC4 Assembler reads in a .ASM text file containing assembly instructions intended for PennSim and outputs a .OBJ binary file. This project demonstrates handling strings, multidimensional arrays, and file I/O in C.
 
-1. **Mastering File Handling:** I gained proficiency in reading and writing both text and binary files in C, utilizing file I/O mechanisms to manipulate data efficiently.
+## Features
+- Reads assembly instructions from a text file
+- Converts instructions to their binary equivalents
+- Outputs the binary code to a .OBJ file
+- Error handling for file I/O and instruction parsing
 
-2. **Understanding LC4 Assembly:** I delved into LC4 assembly language syntax and its machine equivalent, crucial for translating assembly instructions into binary representations.
+## Technologies Used
+- C programming language
+- clang compiler
 
-3. **Harnessing String Manipulation:** I employed string handling techniques to parse and process assembly language instructions, facilitating their conversion into machine code.
+## Installation
+1. **Compile the program:**
+    ```sh
+    clang assembler.c asm_parser.c -o assembler
+    ```
 
-4. **Leveraging Multidimensional Arrays:** Utilizing multidimensional arrays, I stored and manipulated data structures representing assembly instructions and their corresponding binary representations.
+## Usage
+1. **Run the assembler:**
+    ```sh
+    ./assembler <assembly_file.asm>
+    ```
+   Replace `<assembly_file.asm>` with the name of your assembly file.
 
-**Tools and Technologies:**
+2. **Example:**
+    ```sh
+    ./assembler test.asm
+    ```
 
-- **Compiler:** I utilized the clang compiler, providing access to the standard C library, to ensure compatibility and leverage its robust features for efficient code development.
-
-**Project Deliverables:**
-
-1. **My Mini LC4 Assembler Program:** I developed a C program capable of reading assembly language from a .ASM file, translating it into binary code, and generating a .OBJ file as output.
-
-2. **Comprehensive Documentation:** I provided detailed documentation outlining the design, implementation, and usage of my mini LC4 Assembler, including explanations of algorithms and data structures employed.
-
-3. **Thorough Testing:** Creating a suite of test cases, I validated the functionality and accuracy of my assembler, ensuring correct translation of assembly instructions into binary code across various scenarios.
-
-**Project Scope and Limitations:**
-
-- **Compiler:** The project utilized the clang compiler instead of the LCC compiler, enabling access to the standard C library for enhanced functionality.
-
-- **Focus:** My primary focus was on file handling, string manipulation, and multidimensional arrays, with specific emphasis on implementing a functional LC4 assembler rather than advanced optimization techniques.
-
-**Conclusion:**
+## Conclusion:
 
 Through the development of my mini LC4 Assembler, this project offered me an opportunity to deepen my understanding of file I/O, string manipulation, and multidimensional arrays in C programming. By successfully completing this project, I not only enhanced my proficiency in C programming but also gained practical experience in working with assembly language and binary file formats.
+
+## Contributing
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/fooBar`)
+3. Commit your changes (`git commit -m 'Add some fooBar'`)
+4. Push to the branch (`git push origin feature/fooBar`)
+5. Open a Pull Request
+
+## License
+This project is licensed under the MIT License.
+
+## Contact
+For any questions or support, please contact [your-email@example.com](mailto:your-email@example.com).
 
 ---
 
