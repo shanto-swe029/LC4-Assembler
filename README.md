@@ -59,7 +59,7 @@ Through the development of my mini LC4 Assembler, this project offered me an opp
 This project is licensed under the MIT License.
 
 ## Contact
-For any questions or support, please contact [your-email@example.com](mailto:your-email@example.com).
+For any questions or support, please contact [dev.shanto.bd@gmail.com](mailto:dev.shanto.bd@gmail.com).
 
 ---
 
